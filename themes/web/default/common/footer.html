@@ -1,0 +1,12 @@
+	<div id="footer">
+		<span class="pull-left">
+			<p>{if empty($_W['setting']['copyright']['footerleft'])}Powered by <b>IdeaMax</b> v{IMS_VERSION} &copy; 2014 {else}{$_W['setting']['copyright']['footerleft']}{/if}</p>
+		</span>
+		<span class="pull-right">
+			<p>{if empty($_W['setting']['copyright']['footerright'])}{else}{$_W['setting']['copyright']['footerright']}{/if}</p>
+		</span>
+	</div>
+	<div class="emotions" style="display:none;"></div>
+	{$_W['setting']['copyright']['statcode']}
+</body>
+</html>
